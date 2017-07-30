@@ -1,40 +1,38 @@
 * {
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 body {
     font-family: "Lsto", sans-serif;
     color: #291fla;
     font-weight: 300;
-    margin:0;
+    margin: 0;
 }
 
 #main-nav {
-    position:fixed;
+    position: fixed;
     background-color: #fff;
     width: 100%;
-    background:transparent;
+    background: transparent;
 }
 
-#main-nav > ul {
+#main-nav>ul {
     float: right;
-    width:40%;
+    width: 40%;
 }
 
-#main-nav > ul > li {
+#main-nav>ul>li {
     display: inline-block;
     list-style: none;
     margin: 0% 5%;
- 
 }
 
-#main-nav > ul > li > a {
+#main-nav>ul>li>a {
     color: #lac056;
     font-weight: 300;
     text-decoration: none;
-    color:white;
+    color: white;
     font-size: 15px;
-    
 }
 
 header {
@@ -48,24 +46,51 @@ header {
 }
 
 h1 {
-    color:white;
+    color: white;
     display: inline-block;
     position: absolute;
-    margin:0 auto;
-    left:0;
+    margin: 0 auto;
+    left: 0;
     right: 0;
-    top:50%;
-    font-size:90px;
-    
+    top: 50%;
+    font-size: 90px;
 }
 
 h2 {
-    color:white;
+    color: white;
     display: inline-block;
     position: absolute;
-    margin:0 auto;
-    left:0;
+    margin: 0 auto;
+    left: 0;
     right: 0;
-    top:70%;
-    font-size: 70px;
+    top: 70%;
+    font-size: 30px;
+}
+
+span {
+    color: green;
+}
+
+#main-about {
+    display: inline-block;
+    text-align: center;
+}
+
+sector article img {
+    width: 20%;
+    float: left;
+    position: relative;
+    border: 10px solid white;
+    margin-left: 10%;
+}
+
+sector article p#about-content {
+    padding: 0% 20% 0% 40%;
+}
+
+sector article p#about {
+    width: 100%;
+    padding-right: 15%;
+    font-size: 20px;
+    margin: 2% 0% 2% 0%;
 }
