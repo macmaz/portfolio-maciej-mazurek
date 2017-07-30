@@ -16,12 +16,13 @@ nav#main-nav ul{
     position: fixed;
     background-color: transparent;
     width:100%;
+
     
 }
 
 nav#main-nav ul li{
     display: inline-block;
-    margin:1%;
+    margin:3% 2% 1% 2%;
     align-items: center;
     float:right;
 }
@@ -29,7 +30,8 @@ nav#main-nav ul li{
 nav#main-nav ul li a{
     text-decoration: none;
     font-weight: 300;
-    color:white;
+    color:darkgrey;
+    font-size: 20px
 }
 
 nav#main-nav ul li a:hover{
@@ -42,15 +44,22 @@ header#main-header {
     background-position: center;
     display: inline-block;
     width: 100%;
-    padding:25%;
+    padding:10%;
 }
 
-header#main-header div h1, h2 {
+header#main-header h1{
     font-family: "Roboto";
+    font-size: 80px
     
 }
 
 div.main-header-content {
     padding: 30vh%;
     text-align: center;
+    padding-top: 20%;
+}
+
+
+span {
+    color:green;
 }
