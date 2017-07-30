@@ -73,7 +73,6 @@ span {
 
 #main-about {
     display: inline-block;
-    text-align: center;
 }
 
 sector article img {
@@ -85,12 +84,14 @@ sector article img {
 }
 
 sector article p#about-content {
-    padding: 0% 20% 0% 40%;
+    padding: 0% 10% 0% 40%;
+    text-align: left;
 }
 
 sector article p#about {
     width: 100%;
-    padding-right: 15%;
+    padding-right: 25%;
     font-size: 20px;
     margin: 2% 0% 2% 0%;
+    text-align: center;
 }
