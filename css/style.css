@@ -47,9 +47,9 @@ header#main-header {
     padding:10%;
 }
 
-header#main-header h1{
-    font-family: "Roboto";
-    font-size: 80px
+h1{
+    font-size: 140px;
+    font-family:"Roboto";
     
 }
 
