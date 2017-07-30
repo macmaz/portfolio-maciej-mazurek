@@ -75,7 +75,7 @@ span {
     display: inline-block;
 }
 
-sector article img {
+img#profile {
     width: 20%;
     float: left;
     position: relative;
@@ -83,15 +83,39 @@ sector article img {
     margin-left: 10%;
 }
 
-sector article p#about-content {
+p#about-content {
     padding: 0% 10% 0% 40%;
     text-align: left;
 }
 
-sector article p#about {
+p#about {
     width: 100%;
     padding-right: 25%;
     font-size: 20px;
     margin: 2% 0% 2% 0%;
     text-align: center;
 }
+
+#skills {
+    text-align: center;
+    display: inline-block;
+}
+
+#my-skils {
+    font-size:20px;
+    margin: 2% 0% 2% 0%;
+}
+
+#skills-content {
+    font-size: 15px;
+    margin: 2% 0% 2% 0%
+}
+
+#skills-picture {
+display: inline-block;
+    text-align: center;
+}
+
+
+
+
