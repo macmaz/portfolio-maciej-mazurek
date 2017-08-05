@@ -124,7 +124,7 @@ section h2 {
 
 #skills #skills-icons figure {
     display: inline-block;
-    margin-bottom: 10%;
+    margin-top: 2%;
 }
 
 #skills #skills-icons figure img {
@@ -176,6 +176,7 @@ div.contact-social-icons a:hover {
 
 span {
     color: forestgreen;
+    font-weight: 600;
 }
 
 div.contact-form {
@@ -230,3 +231,34 @@ input[type="submit"] {
     color:white;
     
 }
+
+/*section portfolio start*/
+
+#portfolio {
+    font-size: 0px;
+    margin:10% 0% 10% 0%
+}
+
+.single-portfolio-item {
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 33.33333%;
+    position: relative;
+}
+
+#portfolio-item-1 {
+    background-image: url(../img/portfolio1.jpg);
+}
+
+#portfolio-item-2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+
+#portfolio-item-3 {
+    background-image: url(../img/portfolio3.jpg);
+}
+
+/*section portfolio stop*/
