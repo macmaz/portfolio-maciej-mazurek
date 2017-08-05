@@ -1,65 +1,148 @@
 * {
-    margin:0;
-    padding:0;
     box-sizing: border-box;
 }
 
 body {
-/*    background-color: #19820b;*/
-    font-family: 'Lato' sans-serif;
-    color:#291f1a;
+    margin 0;
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
     font-weight: 300;
 }
 
-nav#main-nav ul{
-    list-style-type: none;
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+section {
+    padding: 0 80px 100px;
+    width: 100%;
+}
+section h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+/* Main menu Styles Start */
+
+#main-nav {
     position: fixed;
-    background-color: transparent;
-    width:100%;
-
-    
+    width: 100%;
+    background-color: #fff;
+    top: 0;
+    right: 0;
 }
 
-nav#main-nav ul li{
+#main-nav > ul {
+    margin: 0;
+    float: right;
+}
+
+#main-nav > ul > li {
     display: inline-block;
-    margin:3% 2% 1% 2%;
-    align-items: center;
-    float:right;
+    list-style: none;
 }
-    
-nav#main-nav ul li a{
-    text-decoration: none;
+
+#main-nav > ul > li > a {
+    color: #1ac056;
     font-weight: 300;
-    color:darkgrey;
-    font-size: 20px
+    text-decoration: none;
 }
 
-nav#main-nav ul li a:hover{
-    color:brown;
+#main-nav > ul > li > a:hover {
+    color: #291f1a;
 }
 
-header#main-header {
-    background-image: url(/img/header-background.jpg);
+/* Main menu Styles Stop */
+
+/* Header Styles Start */
+
+#main-header {
+    background-image: url(../img/header-background.jpg);
     background-size: cover;
     background-position: center;
-    display: inline-block;
-    width: 100%;
-    padding:10%;
 }
 
-h1{
-    font-size: 140px;
-    font-family:"Roboto";
-    
+#main-header .main-header-content {
+    padding: 30vh;
 }
 
-div.main-header-content {
-    padding: 30vh%;
+#main-header .main-header-content h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Styles Stop */
+
+/* Section About Styles Start */
+
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+}
+
+#about > figure {
+    width: 50%;
+    float: left;
+    margin: 0;
     text-align: center;
-    padding-top: 20%;
 }
 
-
-span {
-    color:green;
+#about > article {
+    width: 50%;
+    float: left;
 }
+
+#about > figure > img {
+    max-height: 350px;
+    max-width: 100%;
+    border: 15px #fff solid;
+    border-radius: 15px;
+}
+
+/* Section About Styles Stop */
+
+/* Section Skills Styles Stop */
+
+#skills > p{
+    text-align: center;
+}
+
+#skills div#skills-icons {
+    text-align: center;
+}
+
+#skills #skills-icons figure {
+    display: inline-block;
+}
+
+#skills #skills-icons figure img {
+    margin-bottom: 15px;
+}
+
+/* Section Skills Styles Stop */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
