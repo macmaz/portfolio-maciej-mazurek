@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -13,8 +15,8 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-section {
-    padding: 0 80px 100px;
+section#about {
+    padding: 0 80 100px;
     width: 100%;
 }
 section h2 {
@@ -102,7 +104,7 @@ section h2 {
 
 /* Section About Styles Stop */
 
-/* Section Skills Styles Stop */
+/* Section Skills Styles start */
 
 #skills > p{
     text-align: center;
@@ -117,10 +119,45 @@ section h2 {
 }
 
 #skills #skills-icons figure img {
-    margin-bottom: 15px;
+
+    margin:15px;
 }
 
+
+
 /* Section Skills Styles Stop */
+
+/* Contact section styling start */
+
+
+section#contact {
+background-color:#213b50 ;
+color: #fff ;
+height: 300px;
+margin-top: 30px;
+
+
+}
+
+div.contact_data {
+    width: 50%;
+    float: left;
+    
+}
+
+div.contact_data, div.contact_data h2 {
+text-align: left;
+padding-left:20px
+    
+}
+
+div.contact-form{
+    text-align:left;
+    width: 50%;
+    display: inline-block;
+    float: left;
+    margin-top:60px
+}
 
 
 
