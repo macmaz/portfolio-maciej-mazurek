@@ -11,7 +11,7 @@ body {
     font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,h2,h3,h4,h5,h6 {
     text-align: center;
 }
 
@@ -19,12 +19,14 @@ section#about {
     padding: 0 80 100px;
     width: 100%;
 }
+
 section h2 {
     font-size: 30px;
     font-weight: 300;
     margin-top: 60px;
     margin-bottom: 35px;
 }
+
 
 /* Main menu Styles Start */
 
@@ -36,27 +38,29 @@ section h2 {
     right: 0;
 }
 
-#main-nav > ul {
+#main-nav>ul {
     margin: 0;
     float: right;
 }
 
-#main-nav > ul > li {
+#main-nav>ul>li {
     display: inline-block;
     list-style: none;
 }
 
-#main-nav > ul > li > a {
+#main-nav>ul>li>a {
     color: #1ac056;
     font-weight: 300;
     text-decoration: none;
 }
 
-#main-nav > ul > li > a:hover {
+#main-nav>ul>li>a:hover {
     color: #291f1a;
 }
 
+
 /* Main menu Styles Stop */
+
 
 /* Header Styles Start */
 
@@ -74,7 +78,9 @@ section h2 {
     font-family: 'Roboto', sans-serif;
 }
 
+
 /* Header Styles Stop */
+
 
 /* Section About Styles Start */
 
@@ -83,30 +89,32 @@ section h2 {
     overflow: hidden;
 }
 
-#about > figure {
+#about>figure {
     width: 50%;
     float: left;
     margin: 0;
     text-align: center;
 }
 
-#about > article {
+#about>article {
     width: 50%;
     float: left;
 }
 
-#about > figure > img {
+#about>figure>img {
     max-height: 350px;
     max-width: 100%;
     border: 15px #fff solid;
     border-radius: 15px;
 }
 
+
 /* Section About Styles Stop */
+
 
 /* Section Skills Styles start */
 
-#skills > p{
+#skills>p {
     text-align: center;
 }
 
@@ -116,38 +124,33 @@ section h2 {
 
 #skills #skills-icons figure {
     display: inline-block;
+    margin-bottom: 10%;
 }
 
 #skills #skills-icons figure img {
-
-    margin:15px;
+    margin: 15px;
 }
-
 
 
 /* Section Skills Styles Stop */
 
+
 /* Contact section styling start */
 
-
 section#contact {
-background-color:#213b50 ;
-color: #fff ;
-height: 500px;
-margin-top: 30px;
-
-
+    background-color: #213b50;
+    color: #fff;
+    height: 600px;
+    margin-top: 30px;
 }
 
 div.contact_data {
     width: 50%;
     float: left;
     text-align: left;
-    padding-left:30px;
+    padding-left: 30px;
     overflow: hidden;
     line-height: 25px;
-    
-    
 }
 
 div.contact_data h2 {
@@ -156,67 +159,74 @@ div.contact_data h2 {
 }
 
 div.contact-social-icons a {
- display: inline-block;
+    display: inline-block;
     height: 38px;
     width: 38px;
     text-align: center;
-    border:1px solid #fff;
+    border: 1px solid #fff;
     font-size: 22px;
-    margin-top: 10px;
-    color:white;
-    padding-top:5px;
+    margin-top: 80px;
+    color: white;
+    padding-top: 5px;
 }
 
 div.contact-social-icons a:hover {
-    border:1px solid #213b50;
-
+    border: 1px solid #213b50;
 }
 
 span {
-    color:forestgreen;
-}
-
-
-div.contact-form{
-    text-align:left;
-    width: 50%;
-    display: inline-block;
-    float: left;
-    margin-top:100px;
-}
-
-address a {
-    text-decoration:none;
-}
-
-address a:link {
-    text-decoration:none;
     color: forestgreen;
 }
 
+div.contact-form {
+    text-align: left;
+    width: 50%;
+    display: inline-block;
+    float: left;
+    margin-top: 100px;
+}
 
+address a {
+    text-decoration: none;
+}
 
+address a:link {
+    text-decoration: none;
+    color: forestgreen;
+}
 
+form input, textarea {
+    width: 80%;
+    margin:2%;
+    background-color: #426684 ;
 
+}
 
+form input {
+    height:50px
+}
 
+::-webkit-input-placeholder{
+    color:    white;
+    padding-left:10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
 
+form input:hover , textarea:hover {
+    background-color: #426684 ;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+input[type="submit"] {
+    color:white;
+    font-weight: 600;
+    width: auto;
+    padding: 15px 30px;
+    margin: 0% 18% 20% 0%;
+    float:right;
+    text-transform: uppercase;
+    border:1pz solid #1ac056;
+    background-color: #1ac056;
+    color:white;
+    
+}
