@@ -36,23 +36,25 @@ section h2 {
 #main-nav {
     position: fixed;
     width: 100%;
-    background-color: transparent;
+    background-color: white;
     top: 0;
     right: 0;
+    z-index: 9999;
 }
 
 #main-nav>ul {
-    margin: 0;
+    margin: 10px 0px 10px 150px;
     float: right;
 }
 
 #main-nav>ul>li {
     display: inline-block;
     list-style: none;
+    margin:0px 20px;
 }
 
 #main-nav>ul>li>a {
-    color: white;
+    color: darkgreen;
     font-weight: 400;
     text-decoration: none;
 }
@@ -163,18 +165,18 @@ div.contact_data h2 {
 
 div.contact-social-icons a {
     display: inline-block;
-    height: 38px;
-    width: 38px;
+    height: 50px;
+    width: 50px;
     text-align: center;
-    border: 1px solid #fff;
-    font-size: 22px;
-    margin-top: 80px;
+    font-size: 40px;
+    margin-top: 50px;
     color: white;
-    padding-top: 5px;
+    vertical-align: middle;
+    line-height: 45px;
 }
 
 div.contact-social-icons a:hover {
-    border: 1px solid #213b50;
+color:forestgreen;
 }
 
 span {
@@ -262,6 +264,7 @@ input[type="submit"] {
 
 #portfolio-item-2 {
     background-image: url(../img/portfolio2.jpg);
+    
 }
 
 #portfolio-item-3 {
@@ -289,13 +292,11 @@ transform: all 0.3s easy-in-out;
 }
 
 .single-portfolio-item-mask-content-iner {
-    position: absolute;
     top:50%;
-    transform: translateY(-50%);
     left: 0;
     right: 0;
-    padding: 5px;
     color: white;
+  
 }
 
 .single-portfolio-item-mask-content-inner i {
@@ -314,4 +315,8 @@ footer {
 
 footer p {
     margin: 0;
+}
+input#drop, label {
+    display: none;
+    height: 0;
 }
